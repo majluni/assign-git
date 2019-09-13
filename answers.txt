@@ -1,5 +1,5 @@
 What is a gitignore file and what should it include for a Java project?
-	A gitignore file is used to tell git what types of files you do not want it to track and store in the repo. All files matching the listed extensions will not be included in the source control.
+	A gitignore file is used to tell git what types of files you do not want it to track and store in the repo. All files matching the listed extensions will not be included in the source control. For a Java project this should include all files related to the project environment as well as any compiled files (.class for example).
 
 What does fast-forward in Git mean?
 	When using git a fast-forward means that you are able to add your changes onto branch/line as if you were 'fast-forwarding' the destination branch to your current place.
